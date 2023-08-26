@@ -329,7 +329,7 @@ body.active {
 .about-us .desc__line::before {
   content: "";
   position: absolute;
-  width: 400px;
+  width: 311px;
   border-top: 2px solid #606060;
 }
 
@@ -485,6 +485,13 @@ body.active {
   letter-spacing: -1.28px;
   max-width: 774px;
 }
+@media screen and (max-width: 375px), (max-width: 480px), (max-width: 700px), (max-width: 900px) {
+  .support__cooperation {
+    max-width: 311px;
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
 .support__text {
   color: #606060;
   text-align: center;
@@ -532,7 +539,7 @@ body.active {
 }
 @media screen and (max-width: 375px), (max-width: 480px), (max-width: 700px), (max-width: 900px) {
   .footer .line--first {
-    width: 511px;
+    width: 311px;
     border-color: #606060;
     z-index: 8;
   }

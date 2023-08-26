@@ -377,7 +377,7 @@ body {
       &::before {
         content: "";
         position: absolute;
-        width: 400px;
+        width: 311px;
         border-top: 2px solid #606060;
       }
     }
@@ -555,6 +555,15 @@ body {
     line-height: 64px;
     letter-spacing: -1.28px;
     max-width: 774px;
+
+    @media screen and (max-width: 375px),
+    (max-width: 480px),
+    (max-width: 700px),
+    (max-width: 900px) {
+    max-width: 311px;
+    font-size: 40px;
+    line-height: 48px;
+  }
   }
 
   &__text {
@@ -615,7 +624,7 @@ body {
       (max-width: 480px),
       (max-width: 700px),
       (max-width: 900px) {
-      width: 511px;
+      width: 311px;
       border-color: #606060;
       z-index: 8;
     }
